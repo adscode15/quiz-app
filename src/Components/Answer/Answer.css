@@ -23,7 +23,7 @@
     color: #fff;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 430px){
     .Answer{
         width: 100%;
     }
