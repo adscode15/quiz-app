@@ -1,6 +1,5 @@
 .Answer{
-    min-width: 200px;
-    max-width: 100%;
+    width: 300px;
     min-height: 40px;
     margin: 10px;
     border: 1px solid black;
@@ -22,4 +21,10 @@
 .Answer.wrong-answer{
     background-color: rgb(224, 61, 61);
     color: #fff;
+}
+
+@media screen and (max-width: 400px){
+    .Answer{
+        width: 100%;
+    }
 }
